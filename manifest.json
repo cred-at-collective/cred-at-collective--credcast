@@ -90,7 +90,9 @@
           "githubUrl": "https://github.com/dateutil/dateutil",
           "source": "build_file:requirements.txt"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/4344176eace88d7ce868d5ff9f217d500f0bc315/chunk-001.nq.gz",
+      "dep": "dep/4344176eace88d7ce868d5ff9f217d500f0bc315.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
