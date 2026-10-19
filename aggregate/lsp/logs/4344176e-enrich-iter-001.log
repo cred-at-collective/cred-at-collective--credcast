@@ -1,0 +1,17 @@
+[2026-10-19T02:38:18Z] === ENRICH ITERATION 1 START | repo=cred-at-collective/credcast sha=4344176e ===
+[2026-10-19T02:38:18Z] [iter=1] PHASE START: enrich repo=cred-at-collective/credcast sha=4344176e runlog=/home/runner/work/forx-enterprise/forx-enterprise/storage/aggregate/lsp/logs/4344176e-enrich-iter-001.log output=/home/runner/work/forx-enterprise/forx-enterprise/storage/aggregate/lsp/4344176eace88d7ce868d5ff9f217d500f0bc315.nq.gz
+[2026-10-19T02:38:24Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=72 MB
+[2026-10-19T02:38:25Z] [iter=1] AST store loaded triples=120091 load_secs=1 mem_mb=252 MB
+[2026-10-19T02:38:25Z] [iter=1] Step 2: Finding LSP targets mem_mb=252 MB
+[2026-10-19T02:38:25Z] [iter=1] LSP targets found call_sites=1075 imports=67 extends=0 implements=0 secs=0
+[2026-10-19T02:38:25Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=252 MB
+[2026-10-19T02:38:25Z] [iter=1] Position index built positions=8301 nodes_with_types=10824 secs=0 mem_mb=252 MB
+[2026-10-19T02:38:25Z] [iter=1] Step 3: Starting LSP resolution mem_mb=252 MB already_completed_types=[] already_completed_files=0
+[2026-10-19T02:38:25Z] [iter=1] Resolving target type target_type=call_site count=1075
+[2026-10-19T02:38:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=11 resolved=608 errors=97 current=debug.py
+[2026-10-19T02:38:55Z] [iter=1] Target type resolved target_type=call_site resolved=650 errors=98 secs=29 mem_mb=252 MB
+[2026-10-19T02:38:55Z] [iter=1] Resolving target type target_type=import_statement count=67
+[2026-10-19T02:38:56Z] [iter=1] Target type resolved target_type=import_statement resolved=47 errors=0 secs=1 mem_mb=252 MB
+[2026-10-19T02:39:00Z] [iter=1] Step 5: Writing final enrichment file triples=8863
+[2026-10-19T02:39:00Z] [iter=1] Enrichment file written path=/home/runner/work/forx-enterprise/forx-enterprise/storage/aggregate/lsp/4344176eace88d7ce868d5ff9f217d500f0bc315.nq.gz size_kb=152
+[2026-10-19T02:39:00Z] [iter=1] PHASE END: enrich elapsed_s=42 elapsed_min=0.7 total_triples=8863

@@ -45,6 +45,51 @@
       ],
       "ast": [
         "aggregate/ast/4344176eace88d7ce868d5ff9f217d500f0bc315/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/4344176eace88d7ce868d5ff9f217d500f0bc315.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "markdown",
+          "ecosystem": "PYPI",
+          "version": "3.3.0",
+          "githubOrg": "Python-Markdown",
+          "githubRepo": "markdown",
+          "githubUrl": "https://github.com/Python-Markdown/markdown",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pyyaml",
+          "ecosystem": "PYPI",
+          "version": "6.0",
+          "githubOrg": "yaml",
+          "githubRepo": "pyyaml",
+          "githubCommit": "8cdff2c80573b8be8e8ad28929264a913a63aa33",
+          "githubTag": "6.0",
+          "githubUrl": "https://github.com/yaml/pyyaml",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pygments",
+          "ecosystem": "PYPI",
+          "version": "2.12.0",
+          "githubOrg": "pygments",
+          "githubRepo": "pygments",
+          "githubCommit": "35de421f65372fb848e86af711cc5797c622e54c",
+          "githubTag": "2.12.0",
+          "githubUrl": "https://github.com/pygments/pygments",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "python-dateutil",
+          "ecosystem": "PYPI",
+          "version": "2.8.2",
+          "githubOrg": "dateutil",
+          "githubRepo": "dateutil",
+          "githubCommit": "6b035517571e63b6a63a493740c5506ec1e5da44",
+          "githubTag": "2.8.2",
+          "githubUrl": "https://github.com/dateutil/dateutil",
+          "source": "build_file:requirements.txt"
+        }
       ]
     }
   ],
